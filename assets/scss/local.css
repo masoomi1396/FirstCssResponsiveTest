@@ -1,0 +1,399 @@
+@media screen and (max-width: 991px) {
+  /*****MOBILE SCOPE AND TABLET SCOPE********/
+  #Header > header {
+    width: 100%;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: black;
+    padding: 1em;
+  }
+  #Header > header > h1 {
+    color: #fff;
+  }
+  #Header > header > h1:hover {
+    color: rgba(255, 255, 255, 0.5019607843);
+  }
+  #Header > header .mobileMenu {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 4px 0px 4px 12px;
+  }
+  #Header > header .mobileMenu > i {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5019607843);
+  }
+  #Header > header .mobileMenu > h3 {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5019607843);
+    margin-left: 5px;
+    text-transform: uppercase;
+  }
+  #Header > header .mobileMenu ~ nav {
+    width: 100%;
+    position: absolute;
+    top: 62px;
+    left: 0;
+    overflow: hidden;
+    height: 0;
+    z-index: 5;
+  }
+  #Header > header .mobileMenu ~ nav > ul {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1em;
+    flex-wrap: wrap;
+  }
+  #Header > header .mobileMenu ~ nav > ul > li {
+    width: 100%;
+    height: 36.5px;
+    padding: 6.5px 0;
+  }
+  #Header > header .mobileMenu ~ nav > ul > li > a {
+    color: rgba(255, 255, 255, 0.7019607843);
+    font-size: 13px;
+    transition: 0.4s;
+    text-transform: uppercase;
+  }
+  #Header > header .mobileMenu ~ nav > ul > li > a:hover {
+    color: #fff;
+  }
+  #Header > header .mobileMenu ~ nav > ul > li:first-of-type > a {
+    color: #6927FF;
+  }
+  #Header > header .mobileMenu ~ nav > ul > li:last-of-type > a {
+    width: 100%;
+    background-color: #6927FF;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    margin: 4px 0px 0px;
+    color: #fff;
+    font-weight: 500;
+  }
+  #Header > header .mobileMenu:hover ~ nav {
+    height: auto;
+  }
+  #Header > section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 48px;
+  }
+  #Header > section > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1;
+  }
+  #Header > section > svg {
+    width: 100%;
+    position: absolute;
+  }
+  /********HEADER************/
+  #Search {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  #Search > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #Search > div:first-of-type {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+  }
+  #Search > div:first-of-type > h2 {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #Search > div:first-of-type > p {
+    font-size: 16px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+  }
+  #Search > div .search {
+    width: 100%;
+  }
+  /*******SEARCH*************/
+  #Choose {
+    width: 100%;
+    background-color: #fafafa;
+    padding: 96px 0;
+  }
+  #Choose > div {
+    width: 100%;
+  }
+  #Choose > div > h2 {
+    text-align: center;
+  }
+  #Choose > section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #Choose > section > section {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  #Choose > section > section > div {
+    margin-bottom: 40px;
+  }
+  #Choose > section > div {
+    width: 100%;
+  }
+  #Choose > section > div > h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 24px;
+  }
+  #Choose > section > div > p {
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 16px;
+  }
+  /******CHOOSE**************/
+  #More {
+    width: 100%;
+    background-color: #6927ff;
+    padding: 50px 15px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+  #More > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  #More > div:first-of-type {
+    height: 20px;
+  }
+  #More > div > span {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9019607843);
+    text-transform: uppercase;
+  }
+  #More > div > div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+  }
+  #More > div > div:first-of-type {
+    margin-top: 50px;
+  }
+  #More > div > div > div {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  /*****DESKTOP SCOPE********/
+  #Header {
+    position: relative;
+  }
+  #Header > header {
+    width: 70%;
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 50px;
+  }
+  #Header > header > h1 {
+    color: #000000;
+  }
+  #Header > header > h1:hover {
+    color: #6927FF;
+  }
+  #Header > header .mobileMenu {
+    display: none;
+  }
+  #Header > header > nav {
+    width: 80%;
+  }
+  #Header > header > nav > ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+  #Header > header > nav > ul > li:first-of-type > a {
+    color: #6927FF;
+  }
+  #Header > header > nav > ul > li > a {
+    font-size: 13px;
+    color: #000000;
+    padding: 14.5px 20px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    font-weight: 500;
+  }
+  #Header > header > nav > ul > li > a:hover {
+    color: #6927FF;
+  }
+  #Header > header > nav > ul > li:last-of-type > a {
+    font-weight: 500;
+    color: #fff;
+    background-color: #6927FF;
+    border: 1px solid #6927FF;
+    padding: 8px 20px;
+    margin: 4px 0px 0px;
+    border-radius: 5px;
+  }
+  #Header > header > nav > ul > li:last-of-type > a:hover {
+    color: #fff;
+  }
+  #Header > section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;
+  }
+  #Header > section > div {
+    margin-left: 15%;
+    width: 480px;
+    height: 440px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  #Header > section > div > h4, #Header > section > div > h2, #Header > section > div > p {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  #Header > section > div > a {
+    width: auto;
+  }
+  /********HEADER*************/
+  #Search {
+    width: 70%;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  #Search > div:first-of-type {
+    width: 445px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  #Search > div:first-of-type > h2 {
+    color: #000000;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  #Search > div:first-of-type > p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+  }
+  #Search > div:last-of-type {
+    flex-grow: 1;
+  }
+  /********SEARCH************/
+  #Choose {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+    padding-top: 100px;
+  }
+  #Choose > section {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: capitalize;
+  }
+  #Choose > section > div {
+    width: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 0 15px;
+  }
+  #Choose > section > div > h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #000000;
+  }
+  #Choose > section > div > p {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    color: #666666;
+  }
+  #Choose > section > section {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #Choose > section > section > div {
+    width: 48%;
+    margin-bottom: 40px;
+  }
+  /*******MORE***************/
+  #More {
+    width: 100%;
+    height: 335px;
+    background-color: #6927FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #More > div {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+  #More > div > span {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9019607843);
+    text-align: center;
+    text-transform: uppercase;
+  }
+  #More > div > div {
+    width: 100%;
+    text-transform: capitalize;
+    padding-left: 25px;
+  }
+}/*# sourceMappingURL=local.css.map */

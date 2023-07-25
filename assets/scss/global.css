@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#Header {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+#Header > header > h1 {
+  font-size: 20px;
+  padding: 5px 0px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+#Header > header > h1:hover {
+  cursor: pointer;
+}
+#Header > section > div > h4 {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #6927ff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+#Header > section > div > h2 {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+}
+#Header > section > div > h2 > span {
+  width: 100%;
+  text-transform: uppercase;
+}
+#Header > section > div > p {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0 0 16px;
+  font-weight: 400;
+}
+#Header > section > div > a {
+  width: 148px;
+  height: 58px;
+  padding: 16px 24px;
+  font-size: 16px;
+  background-color: #6927ff;
+  color: #fff;
+  border: 1px solid #6927ff;
+  border-radius: 20px;
+  box-shadow: 0px 15px 30px -12px rgba(0, 0, 0, 0.2);
+}
+
+#Search .search {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: #6927ff;
+  border-radius: 50px 0 50px 0;
+}
+#Search .search > span {
+  height: 60px;
+  padding: 6px 20px 6px 24px;
+  color: black;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Search .search > span:first-of-type {
+  border-right: 1px solid #6927ff;
+}
+#Search .search > span:nth-of-type(1), #Search .search > span:nth-last-of-type(2) {
+  background-color: #fff;
+}
+#Search .search > span:last-of-type {
+  background-color: #38d39f;
+  color: #fff;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.chooseTrick {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  height: 225px;
+  align-items: center;
+}
+.chooseTrick > div:first-of-type {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #6927ff;
+  border-radius: 50%;
+  background-color: #6927ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chooseTrick > div:first-of-type > i {
+  font-size: 44px;
+  color: #fff;
+}
+.chooseTrick > div:last-of-type {
+  width: calc(100% - 80px);
+  padding-left: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+.chooseTrick > div:last-of-type > h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  height: 30px;
+  width: 100%;
+  color: #000000;
+}
+.chooseTrick > div:last-of-type > p {
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #666666;
+}
+
+.moreTrick {
+  display: flex;
+  flex-wrap: wrap;
+}
+.moreTrick > span {
+  width: 100%;
+}
+.moreTrick > span:first-of-type {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+.moreTrick > span:last-of-type {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7019607843);
+  text-align: center;
+}/*# sourceMappingURL=global.css.map */
