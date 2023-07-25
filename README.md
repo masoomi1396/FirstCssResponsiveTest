@@ -1,6 +1,6 @@
 # FirstCssResponsiveTest
 *😁 This is my first responsive site which is created only with HTML and CSS and Sass*
-- [Demo Project](https://github.com/masoomi1396/SiteSampleForPractice3)
+- [Demo Project](https://github.com/masoomi1396/FirstCssResponsiveTest)
 - Developed by Amirmohammad Masoumi
 - Created - 2023-07-25
 - 🤖 Technologies Used - Html , Css , Sass
